@@ -21,10 +21,10 @@ do
     # Check which file exists and run fsl_anat accordingly
     if [ -n "$fspgr_file" ]; then
         echo "Found FSPGR file: $fspgr_file"
-        fsl_anat --noreg --nononlinreg --noseg --nosubcortseg -o "${ses01_dir}T1_struct" -i "$fspgr_file"
+        fsl_anat --noseg --nosubcortseg -o "${ses01_dir}T1_struct" -i "$fspgr_file"
     elif [ -n "$mprage_file" ]; then
         echo "Found MPRAGE file: $mprage_file"
-        fsl_anat --noreg --nononlinreg --noseg --nosubcortseg -o "${ses01_dir}T1_struct" -i "$mprage_file"
+        fsl_anat --noseg --nosubcortseg -o "${ses01_dir}T1_struct" -i "$mprage_file"
     else
         echo "No FSPGR or MPRAGE file found in ${anat_dir}."
     fi
