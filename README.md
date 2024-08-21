@@ -4,7 +4,10 @@ Neural network model for regression and classification tasks aimed at predicting
 
 Model was trained on MRI, DTI, and clinical data from a dataset of 157 healthy research volunteers. As two participants lacked structural MRI data, they were excluded from the analysis. Furthermore, four participants had poor brain extractions, resulting in poor alignment grey matter segmentations and standard space atlas, so they were also excluded. This resulted in a final cohort of 151 participants. Participant eligibility and imaging procedures can be found on the website : https://openneuro.org/datasets/ds004215/versions/1.0.3
 
-Final analyses were conducted in standard MNI space for ease of processing. As the goal of this project was practice creating prediction models that can ultimately be applied in clinical settings, comparing in standard space allows for better comparison across a wide range of individuals. It also allows anyone who wants to try the model to skip the inverse warp step of analysis in which the transformation matrix between the atlas' space and individual's native structural space must also be computed.  
+- <small>Final analyses were conducted in standard MNI space for ease of processing. As the goal of this project was practice creating prediction 
+  models that can ultimately be applied in clinical settings, comparing in standard space allows for better comparison across a wide range of     
+  individuals. It also allows anyone who wants to try the model to skip the inverse warp step of analysis in which the transformation matrix   
+  between the atlas (Harvard Oxford cortical/subcortical) space and individual's native structural space must also be computed.</small> 
 
 This open source data comes from the National Institute of Mental Health (NIMH) Intramural Healthy Volunteer Dataset from OpenNeuro : 
 
