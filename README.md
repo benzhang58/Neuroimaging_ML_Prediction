@@ -1,5 +1,6 @@
-# MRI_DTI_Machinelearning_Analysis
-Neural network models for regression and classification tasks aimed at predicting cognition and depression scores based on neuroimaging variables (grey matter volume, fractional anisotropy, etc) along with blood &amp; urine markers.
+# MRI Machine Learning Analysis 
+
+Neural network models for regression and classification tasks aimed at predicting cognitionm, intelligence, and depression scores based on neuroimaging variables (grey matter volume, fractional anisotropy, etc) along with blood, urine, and other markers.
 
 
 
