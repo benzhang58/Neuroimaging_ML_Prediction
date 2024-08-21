@@ -4,9 +4,9 @@ Neural network models for regression and classification tasks aimed at predictin
 
 
 
-MRI Analysis Steps
+##MRI Analysis Steps
 
-1. fsl_anat.sh :
+1. ###fsl_anat.sh :
 -   This uses the fsl_anat function on all the participants. "fsl_anat" is a comprehensive pipeline in FSL that performs several preprocessing steps, including : bias correction, registration to MNI   space, and segmentation. Everything is output in the T1_struct.anat folder. We use command "-noseg" and "nosubcortseg" to tell the command to skip tissue-type segmentation and subcortical structure segmentation - we will do this later. The brain extraction is called T1_biascorr_brain.nii.gz. 
 
 2. T1_optiBET.sh :
