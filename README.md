@@ -1,6 +1,6 @@
 # Neural Network w/ Neuroimaging Variables  
 
-Neural network models for regression and classification tasks aimed at predicting intelligence (as measured by the Kaufman Brief Intelligence Test, Second Edition) based on neuroimaging variables (cortical/subcortical grey matter volume, fractional anisotropy, etc) along with blood, urine, metabolic health, and other clinical measures. 
+Neural network models for regression tasks aimed at predicting intelligence (as measured by the Kaufman Brief Intelligence Test, Second Edition) based on neuroimaging variables (cortical/subcortical grey matter volume, fractional anisotropy, etc) along with blood, urine, metabolic health, and other clinical measures. 
 
 <table align="center">
   <tr>
