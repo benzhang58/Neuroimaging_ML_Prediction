@@ -37,17 +37,20 @@ This open source data comes from the National Institute of Mental Health (NIMH) 
 -   Applies flirt command from fsl in order to apply linear registration on T1_biascorr_optiBET_brain to standard MNI space, and calculates the transformation matrix from participant's native T1 structural space to standard space. I opted to not use non-linear registration due to long computation time with a large dataset. 
 -   Then uses flirt command, applying the acquired transformation matrix, to warp the grey matter segmentation (derived from FAST) into standard space
 
-### 6. ROI_overlay_in_MNI.sh
+### 6. Manual Check
+-   Manually check the overlay between the atlas and grey matter segmentation in standard space, taking note of any subjects where the masking is particularly bad.
+
+### 7. ROI_overlay_in_MNI.sh
 -   Binarizes the grey matter segmentation
 -   Thresholds atlas of choice (in this case Harvard Oxford cortical & subcortical) into regions of interest (ROI) using fslmaths command 
 -   Masks the binarized grey matter segmentation with these different ROIs, and then calculates volume of grey matter in each ROI
 -   Saves the grey matter volume of each ROI for each participant in a .txt file
 
-### 7. combine_outputs.sh
+### 8. combine_outputs.sh
 -   Loops through each participant, and creates a combined .txt file that consists of a column for their ID's, along with a column for each ROI, as well as their corresponding grey matter volumes for each ROI
 -   Can be copy pasted into spreadsheet 
 
-### 8. Outlier_Impute.py
+### 9. Outlier_Impute.py
 -   Detects outliers for each variable (can set Z-score, I set 3 standard deviations)
 -   Performs kNN imputation 5 nearest neighbours, and keeps track of which values were imputed
 -   Outputs a dataset with the outliers imputed along with all the rest of the data, and also outputs an empty dataset with only the imputed values shown 
