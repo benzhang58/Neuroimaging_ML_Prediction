@@ -47,6 +47,11 @@ This open source data comes from the National Institute of Mental Health (NIMH) 
 -   Loops through each participant, and creates a combined .txt file that consists of a column for their ID's, along with a column for each ROI, as well as their corresponding grey matter volumes for each ROI
 -   Can be copy pasted into spreadsheet 
 
+### 8. Outlier_Impute.py
+-   Detects outliers for each variable (can set Z-score, I set 3 standard deviations)
+-   Performs kNN imputation 5 nearest neighbours, and keeps track of which values were imputed
+-   Outputs a dataset with the outliers imputed along with all the rest of the data, and also outputs an empty dataset with only the imputed values shown 
+
 
 
 
