@@ -1,6 +1,6 @@
 # MRI Machine Learning Analysis 
 
-Neural network model for regression and classification tasks aimed at predicting cognition, intelligence, and depression scores based on neuroimaging variables (grey matter volume, fractional anisotropy, etc) along with blood, urine, and other markers. 
+Neural network models for regression and classification tasks aimed at predicting cognition, intelligence, and depression scores based on neuroimaging variables (cortical/subcortical grey matter volume, fractional anisotropy, etc) along with blood, urine, and other markers. 
 
 Model was trained on MRI, DTI, and clinical data from a dataset of 157 healthy research volunteers. As two participants lacked structural MRI data, they were excluded from the analysis. Furthermore, four participants had poor brain extractions, resulting in poor alignment grey matter segmentations and standard space atlas, so they were also excluded. This resulted in a final cohort of 151 participants. Participant eligibility and imaging procedures can be found on the website : https://openneuro.org/datasets/ds004215/versions/1.0.3
 
