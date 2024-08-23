@@ -7,13 +7,13 @@ Neural network models for regression tasks aimed at predicting intelligence (as 
     <td align="center" style="text-align:center;">
       <div>
         <img src="https://github.com/user-attachments/assets/ad6c01bb-e893-45db-8949-9709736bd5c6" alt="Right Cortical GM Heatmap" width="300px"/>
-        <div style="text-align:center; margin-top: 5px;">Right Cortical ROI GM Volume Heatmap</div>
+        <div style="text-align:center; margin-top: 5px;">Right Cortical ROI Grey Matter Volume Heatmap</div>
       </div>
     </td>
     <td align="center" style="text-align:center;">
       <div>
         <img src="https://github.com/user-attachments/assets/15c9336e-bc4c-40f6-9f4f-9cf49c3680bc" alt="Left Cortical GM Heatmap" width="300px"/>
-        <div style="text-align:center; margin-top: 5px;">Left Cortical ROI GM Volume Heatmap</div>
+        <div style="text-align:center; margin-top: 5px;">Left Cortical ROI Grey Matter Volume Heatmap</div>
       </div>
     </td>
   </tr>
