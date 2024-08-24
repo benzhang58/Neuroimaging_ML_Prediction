@@ -30,9 +30,14 @@ Neural network model for regression task aimed at predicting intelligence (as me
         <div style="text-align:center; margin-top: 5px;">Left Cortical ROI Grey Matter Volume Heatmap</div>
       </div>
     </td>
+    <td align="center" style="text-align:center;">
+      <div>
+        <img src="https://github.com/user-attachments/assets/654e03fb-e7f0-4a02-93d3-b359c538647e" alt="Subcortical Heatmap" width="300px"/>
+        <div style="text-align:center; margin-top: 5px;">Subcortical ROI Grey Matter Volume Heatmap</div>
+      </div>
+    </td>
   </tr>
 </table>
-
 
 
 
