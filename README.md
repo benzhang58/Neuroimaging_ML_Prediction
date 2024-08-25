@@ -2,18 +2,21 @@
 
 Neural network model for regression task aimed at predicting intelligence (as measured by the Kaufman Brief Intelligence Test, Second Edition) based on neuroimaging variables (cortical/subcortical grey matter volume, fractional anisotropy, etc) along with blood, urine, metabolic health, and other clinical measures. 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/900c3284-bd00-45de-a12f-33429df09b60" alt="image">
+</p>
+
+
 ## Project Summary
 #### 1. MRI Data Processing: 
--  Analyzed MRI data from a public dataset of 157 subjects obtained from OpenNeuro to extract grey matter volumes in cortical regions of interest (detailed analysis process provided below)
-#### 2. Clinical Data Collection: 
--  Retrieved clinical variables for each participant from OpenNeuro, including blood metrics, IQ scores, demographic information, and other relevant data.
-#### 3. Neural Network Development: 
+-  Analyzed MRI data from a public dataset of 157 subjects obtained from OpenNeuro to extract grey matter volumes in cortical regions of interest (detailed analysis process provided below). Clinical data (blood, urine, vitamin levels, etc) is also obtained for each participant.
+#### 2. Neural Network Development: 
 -  Manually developed a three-layer neural network model, utilizing the Leaky ReLU activation function.
-#### 4. Feature Engineering: 
+#### 3. Feature Engineering: 
 -  Executed a feature engineering process to identify the most relevant features from over 100 potential variables.
-#### 5. Model Training and Validation: 
+#### 4. Model Training and Validation: 
 -  Trained the neural network on the processed dataset and evaluated model performance using k-fold cross-validation.
-#### 6. Test on my own T1-weighted MRI scan
+#### 5. Test on my own T1-weighted MRI scan
 -  Analyzed my own T1-weighted MRI data to extract cortical grey matter volumes and tested the model with this data for further validation.
 
 <table align="center">
