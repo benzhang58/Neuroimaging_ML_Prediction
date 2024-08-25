@@ -43,7 +43,6 @@ Neural network model for regression task aimed at predicting intelligence (as me
 </table>
 
 
-
 ## MRI Analysis Process
 
 #### 1. fsl_anat.sh :
