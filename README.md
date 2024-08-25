@@ -1,4 +1,4 @@
-# Neural Network w/ Neuroimaging Variables  
+# Neural Network w/ Cortical & Subcortical Grey Matter Volume
 
 Neural network model for regression task aimed at predicting intelligence (as measured by the Kaufman Brief Intelligence Test, Second Edition) based on neuroimaging variables (cortical/subcortical grey matter volume, fractional anisotropy, etc) along with blood, urine, metabolic health, and other clinical measures. 
 
