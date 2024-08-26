@@ -99,7 +99,11 @@ Makris N, Goldstein JM, Kennedy D, Hodge SM, Caviness VS, Faraone SV, Tsuang MT,
 Files are in documentation folder 
 
 
-
+# Final Features  : 
+- Left lateral occipital cortex (inferior division)
+- Right juxtapositional lobule cortex
+- Left frontal operculum cortex
+- Left accumbens 
 
 ## Feature Selection Process
 
