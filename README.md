@@ -8,7 +8,7 @@ Neural network model for regression task aimed at predicting intelligence (as me
       <td align="center">
         <img src="https://github.com/user-attachments/assets/900c3284-bd00-45de-a12f-33429df09b60" alt="Image 1" width="300"/>
         <br>
-        <em>Neural Network Architecture - 10 neurons in first hidden layer, 5 in second </em>
+        <em>Neural Network Architecture </em>
       </td>
       <td align="center">
         <img src="https://github.com/user-attachments/assets/23b6bea3-4249-4a43-bbe6-31dfc0496ada" alt="Image 2" width="300"/>
