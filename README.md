@@ -2,9 +2,28 @@
 
 Neural network model for regression task aimed at predicting intelligence (as measured by the Kaufman Brief Intelligence Test, Second Edition) based on neuroimaging variables (cortical/subcortical grey matter volume, fractional anisotropy, etc) along with blood, urine, metabolic health, and other clinical measures. 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/900c3284-bd00-45de-a12f-33429df09b60" alt="image">
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/900c3284-bd00-45de-a12f-33429df09b60" alt="Image 1" width="300"/>
+        <br>
+        <em>Neural Network Architecture - 10 neurons in first hidden layer, 5 in second </em>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/23b6bea3-4249-4a43-bbe6-31dfc0496ada" alt="Image 2" width="300"/>
+        <br>
+        <em>Learning Curve for Full Training Set</em>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/577926e4-2e09-4f99-9bca-a395ab56356d" alt="Image 3" width="300"/>
+        <br>
+        <em>Learning Curves for each K-fold</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 
 ## Project Summary
