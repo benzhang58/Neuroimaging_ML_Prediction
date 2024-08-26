@@ -109,5 +109,5 @@ Files are in documentation folder
 4. Also tried Lasso_feature_selection.py code to perform Lasso feature selection to better identify features to include
 5. Used tensorflow_permutation.py code to shuffle features and calculate permutation importance 
 6. Looked through relevant literature on intelligence and brain volume 
-7. Combined information derived from all these areas, along with testing different combinations of features in order to determine best performing set of features to use in neural network
+7. Combined information derived from all these areas, along with testing different combinations of features in order to determine best performing set of features to train neural network with
 
