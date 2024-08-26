@@ -11,7 +11,7 @@ Neural network model for regression task aimed at predicting intelligence (as me
 #### 1. MRI Data Processing: 
 -  Analyzed MRI data from a public dataset of 157 subjects obtained from OpenNeuro to extract grey matter volumes in cortical regions of interest (detailed analysis process provided below). Clinical data (blood, urine, vitamin levels, etc) is also obtained for each participant.
 #### 2. Neural Network Development: 
--  Manually developed a three-layer neural network model, utilizing the Leaky ReLU activation function.
+-  Manually developed a four-layer neural network model, utilizing the Leaky ReLU activation function.
 #### 3. Feature Engineering: 
 -  Executed a feature engineering process to identify the most relevant features from over 100 potential variables.
 #### 4. Model Training and Validation: 
