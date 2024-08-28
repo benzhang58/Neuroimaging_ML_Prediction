@@ -1,6 +1,27 @@
 After differing iterations of features and parameter tuning, the model achieved an R-squared of 0.201 when testing performance using a training testing split of 80/20
 
-Features included :  L. lateral occipital cortex (inferior division), R.Juxtapositional lobule cortex, L. frontal operculum cortex
+Final feature set included :  L. lateral occipital cortex (inferior division), R.Juxtapositional lobule cortex, L. frontal operculum cortex
+
+Model performance could be lower than potential optimum due to : 
+- Lack of knowledge on my end regarding intuition for hyperparameter tuning 
+- Potentially suboptimal feature selection, maybe I could have selected more optimal features with a better balance of reducing multicollinearity and maximizing predictive power
+- Lack of training data points, sample size could be bigger 
+- Lack of feature engineering in terms of interaction effects between different brain regions, as intelligence may be better explained by the interplay between certain brain regions rather than their independent volume
+- The dataset might contain noise impacting the models ability to learn effectively with the given sample size - could be noise introduced by warping all participant T1s to standard space, requiring a much larger training set in order to get to the signal 
+- Could have chosen an optimizer that isn't the best for the task at hand
+- Brief snapshots in time of different brain regions or blood markers might not predict intelligence as much as the change in those markers over time
+
+
+Future analysis should look to include 
+- socioeconomic status and education
+- white matter metrics (voxel volume, fractional anisotropy, mean diffusivity, etc)
+- genetics
+- lifestyle factors : exercise, diet, etc
+- metabolic markers : BMI, Hemoglobin A1c, Heart rate variability, resting heart rate
+- Sleep measures (over time) 
+- cerebrospinal fluid 
+- electrophysiological data (resting state EEGs)
+- and many more! 
 
 
 
