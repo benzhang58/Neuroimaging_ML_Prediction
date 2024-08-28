@@ -34,7 +34,7 @@ Neural network model for regression task aimed at predicting intelligence (as me
 #### 3. Feature Engineering: 
 -  Executed a feature engineering process to identify the most relevant features from over 100 potential variables.
 #### 4. Model Training and Validation: 
--  Trained the neural network on the processed dataset and evaluated model performance using k-fold cross-validation.
+-  Trained a neural network on the processed dataset and evaluated its performance using an 80/20 training/testing split.
 #### 5. Test on my own T1-weighted MRI scan
 -  Analyzed my own T1-weighted MRI data to extract cortical grey matter volumes and tested the model with this data for further validation.
 
