@@ -25,6 +25,26 @@ Neural network model for regression task aimed at predicting intelligence (as me
 </div>
 
 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/1e27032f-5401-4d3b-8d4d-2a1e15dee8ac" alt="Image 1" width="300"/>
+        <br>
+        <em>Harvard Oxford Cortical Structural Atlas w/ MNI Brain, coronal </em>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/bade3060-3ac4-4cc4-8935-fd557f5f538c" alt="Image 3" width="300"/>
+        <br>
+        <em>Harvard Oxford Cortical Structural Atlas w/ MNI Brain, sagittal</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
+
 
 ## Project Summary
 #### 1. MRI Data Preprocessing & Analysis: 
